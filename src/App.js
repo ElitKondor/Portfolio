@@ -17,9 +17,9 @@ class App extends React.Component {
     this.state = {
       title: 'Ruslan Mjahcich',
       headerLinks: [
-        { title: 'Home', path: '/home' },
-        { title: 'About', path: '/about' },
-        { title: 'Contact', path: '/contact' }
+        { title: 'Home', path: 'Portfolio/home' },
+        { title: 'About', path: '/Portfolio/about' },
+        { title: 'Contact', path: '/Portfolio/contact' }
       ],
       home: {
         title: 'Be Purposeful',
@@ -46,16 +46,16 @@ class App extends React.Component {
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link" to="/home">Home</Link>
-                <Link className="nav-link" to="/about">About</Link>
-                <Link className="nav-link" to="/contact">Contact</Link>
+                <Link className="nav-link" to="/Portfolio/home">Home</Link>
+                <Link className="nav-link" to="/Portfolio/about">About</Link>
+                <Link className="nav-link" to="/Portfolio/contact">Contact</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
 
-          <Route path="/home" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
-          <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
-          <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
+          <Route path="/Portfolio/home" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
+          <Route path="/Portfolio/about" render={() => <AboutPage title={this.state.about.title} />} />
+          <Route path="/Portfolio/contact" render={() => <ContactPage title={this.state.contact.title} />} />
           
           <Footer />
 
