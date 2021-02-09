@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.aecfe49a.chunk.css",
-    "main.js": "/Portfolio/static/js/main.95b46f99.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.95b46f99.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.aca2ad1b.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.aca2ad1b.js.map",
-    "static/css/2.8aa5a7f8.chunk.css": "/Portfolio/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.8c133d70.chunk.js": "/Portfolio/static/js/2.8c133d70.chunk.js",
-    "static/js/2.8c133d70.chunk.js.map": "/Portfolio/static/js/2.8c133d70.chunk.js.map",
-    "index.html": "/Portfolio/index.html",
-    "precache-manifest.de40a78223e17a2f0be371a5c3a4cef4.js": "/Portfolio/precache-manifest.de40a78223e17a2f0be371a5c3a4cef4.js",
-    "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/2.8aa5a7f8.chunk.css.map": "/Portfolio/static/css/2.8aa5a7f8.chunk.css.map",
-    "static/css/main.aecfe49a.chunk.css.map": "/Portfolio/static/css/main.aecfe49a.chunk.css.map",
-    "static/js/2.8c133d70.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.8c133d70.chunk.js.LICENSE.txt",
-    "static/media/Main_Photo.jpg": "/Portfolio/static/media/Main_Photo.ed52f126.jpg",
-    "static/media/facebook.svg": "/Portfolio/static/media/facebook.c509a4c4.svg",
-    "static/media/game-icon.jpg": "/Portfolio/static/media/game-icon.3befe173.jpg",
-    "static/media/iconArt-icon.png": "/Portfolio/static/media/iconArt-icon.9429b936.png",
-    "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.20177402.svg",
-    "static/media/telegram.svg": "/Portfolio/static/media/telegram.a888fec0.svg"
+    "main.css": "/Portfolio/home/static/css/main.aecfe49a.chunk.css",
+    "main.js": "/Portfolio/home/static/js/main.7b74f5ba.chunk.js",
+    "main.js.map": "/Portfolio/home/static/js/main.7b74f5ba.chunk.js.map",
+    "runtime-main.js": "/Portfolio/home/static/js/runtime-main.efbea0c8.js",
+    "runtime-main.js.map": "/Portfolio/home/static/js/runtime-main.efbea0c8.js.map",
+    "static/css/2.8aa5a7f8.chunk.css": "/Portfolio/home/static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.8c133d70.chunk.js": "/Portfolio/home/static/js/2.8c133d70.chunk.js",
+    "static/js/2.8c133d70.chunk.js.map": "/Portfolio/home/static/js/2.8c133d70.chunk.js.map",
+    "index.html": "/Portfolio/home/index.html",
+    "precache-manifest.752ddd5ac9a96865743eba83b0605e26.js": "/Portfolio/home/precache-manifest.752ddd5ac9a96865743eba83b0605e26.js",
+    "service-worker.js": "/Portfolio/home/service-worker.js",
+    "static/css/2.8aa5a7f8.chunk.css.map": "/Portfolio/home/static/css/2.8aa5a7f8.chunk.css.map",
+    "static/css/main.aecfe49a.chunk.css.map": "/Portfolio/home/static/css/main.aecfe49a.chunk.css.map",
+    "static/js/2.8c133d70.chunk.js.LICENSE.txt": "/Portfolio/home/static/js/2.8c133d70.chunk.js.LICENSE.txt",
+    "static/media/Main_Photo.jpg": "/Portfolio/home/static/media/Main_Photo.ed52f126.jpg",
+    "static/media/facebook.svg": "/Portfolio/home/static/media/facebook.c509a4c4.svg",
+    "static/media/game-icon.jpg": "/Portfolio/home/static/media/game-icon.3befe173.jpg",
+    "static/media/iconArt-icon.png": "/Portfolio/home/static/media/iconArt-icon.9429b936.png",
+    "static/media/linkedin.svg": "/Portfolio/home/static/media/linkedin.20177402.svg",
+    "static/media/telegram.svg": "/Portfolio/home/static/media/telegram.a888fec0.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.aca2ad1b.js",
+    "static/js/runtime-main.efbea0c8.js",
     "static/css/2.8aa5a7f8.chunk.css",
     "static/js/2.8c133d70.chunk.js",
     "static/css/main.aecfe49a.chunk.css",
-    "static/js/main.95b46f99.chunk.js"
+    "static/js/main.7b74f5ba.chunk.js"
   ]
 }
