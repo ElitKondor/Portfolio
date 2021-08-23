@@ -12,7 +12,6 @@ code {
     monospace;
 }
 
-
 .r-card {
   margin: 20px;
 }
@@ -26,7 +25,7 @@ img {
 }
 
 .r-card:nth-of-type(3) .r-card-image {
-  background: gray;
+  background: rgb(102, 63, 63);
 }
 
 .r-card-image {
@@ -52,17 +51,17 @@ img {
 }
 
 .success-msg {
-  color: #57A773;
+  color: #57a773;
   padding: 10px 15px;
 }
 
 .err-msg {
-  color: #EE6352;
+  color: #ee6352;
   padding: 10px 15px;
 }
 
 .jumbotron h1 {
-  font-size: calc(60px + 36 * ((100vw - 320px) / (1900 - 320)))
+  font-size: calc(60px + 36 * ((100vw - 320px) / (1900 - 320)));
 }
 
 .jumbotron h3 {

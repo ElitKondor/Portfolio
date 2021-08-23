@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -6,7 +6,7 @@ import Card from './Card';
 
 import mainPhoto from '../assets/images/Main_Photo.jpg';
 import gameIcon from '../assets/images/game-icon.jpg';
-import iconArt from '../assets/images/iconArt-icon.png'
+import starwars from '../assets/images/StarWars-icon.svg';
 
 class Carousel extends Component {
   constructor(props) {
@@ -19,7 +19,7 @@ class Carousel extends Component {
           subTitle: 'Little pretty JS game',
           imgSrc: gameIcon,
           link: 'https://elitkondor.github.io/js-game/',
-          selected: false
+          selected: false,
         },
         {
           id: 1,
@@ -27,18 +27,18 @@ class Carousel extends Component {
           subTitle: 'My whole programmed world',
           imgSrc: mainPhoto,
           link: 'https://github.com/ElitKondor',
-          selected: false
+          selected: false,
         },
         {
           id: 2,
-          title: 'Kazanivska IconArt',
-          subTitle: 'Pure HTML/CSS with cute and functional design',
-          imgSrc: iconArt,
-          link: 'https://elitkondor.github.io/Iconart-site/',
-          selected: false
-        }
-      ]
-    }
+          title: 'Star Wars Database',
+          subTitle: 'Cool React Database for Star Wars fans',
+          imgSrc: starwars,
+          link: 'https://elitkondor.github.io/StarWars-DB/',
+          selected: false,
+        },
+      ],
+    };
   }
 
   handleCardClick = (id, card) => {
@@ -48,27 +48,33 @@ class Carousel extends Component {
 
     items[id].selected = items[id].selected ? false : true;
 
-    items.forEach(item => {
-      if(item.id !== id) {
+    items.forEach((item) => {
+      if (item.id !== id) {
         item.selected = false;
       }
     });
 
     this.setState({
-      items
+      items,
     });
-  }
+  };
 
   makeItems = (items) => {
-    return items.map(item => {
-      return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
-    })
-  }
+    return items.map((item) => {
+      return (
+        <Card
+          item={item}
+          click={(e) => this.handleCardClick(item.id, e)}
+          key={item.id}
+        />
+      );
+    });
+  };
 
   render() {
     return (
       <Container fluid={true}>
-        <Row className="justify-content-around">
+        <Row className='justify-content-around'>
           {this.makeItems(this.state.items)}
         </Row>
       </Container>
